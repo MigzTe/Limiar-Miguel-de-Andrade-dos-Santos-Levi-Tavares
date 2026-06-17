@@ -1,0 +1,149 @@
+/*CSS COM AS CONFIGURAÇÕES PADRÕES/GERAIS DA PÁGINA*/
+
+:root{
+    --cor-de-fundo: #0d0d0de9;
+    --cor-vermelho-sange:#8B0000;
+    --cor-pergaminho: #F5F0E8;
+    --cor--dourado:#C9A84C;
+
+}
+
+h1,h2,h3{
+    font-family: "Cinzel" ,serif;
+    color:  var(--cor--dourado);
+}
+
+h1{
+  font-size:64px;
+  letter-spacing:3px;
+  text-align: center;
+}
+
+h2{
+  font-size:36px;
+  text-align: center;
+}
+
+p{
+    font-family: "Inter" , sans-serif   ;
+    color: #E8DCC2 ;
+    font-size: 18px;
+}
+
+
+body{
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    
+    
+}
+
+
+header{
+    background: linear-gradient(
+        to bottom,
+        #561212,
+        #111116
+    );
+    color: var(--cor--dourado);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px px #8b00003c;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: #E8DCC2;
+    font-size: 22px;
+    justify-content: center;
+}
+@keyframes animacao_link{
+    100%{    text-decoration: none;
+    color: #E8DCC2;
+    font-size: 25px;
+    justify-content: center;
+}
+}
+.menu > li > a:hover{
+    color:#B08D57 ;
+    box-shadow: 0px 0px 15px var(--cor-vermelho-sange);
+    background-color: var(--cor-vermelho-sange);
+    color: #E8DCC2;
+    border-radius: 10px;
+    padding: 8px;
+    animation: animacao_link 0.5s forwards;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+main{
+    background: linear-gradient(
+        180deg,
+        #00000036 0%,
+        #1B1B24 100%
+    );
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+section{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #202028;
+    box-shadow: 0px 4px 20px #8b000019;
+}
+
+footer{
+    background: linear-gradient(
+        to top,
+        #2A0909,
+        #111116
+    );  
+    padding: 60px 20px;     
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+@keyframes animacao_botao{
+    100%{ border-radius: 80px;
+    padding: 16px 32px;
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    font-size: 25px;
+    font-weight: bold;}
+}
+.botao{
+    background-color: var(--cor--dourado);
+    border-radius: 100px;
+    padding: 16px 32px;
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 20px;
+    font-weight: bold;   
+}
+.botao:hover{
+    box-shadow: 0px 0px 15px var(--cor-vermelho-sange);
+    color: var(--cor-vermelho-sange);
+    animation: animacao_botao 0.5s forwards;
+}

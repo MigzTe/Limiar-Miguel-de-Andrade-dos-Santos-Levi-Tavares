@@ -1,0 +1,16 @@
+section > ul > li{
+    color: antiquewhite;
+    font-family: "Inter" ,sans-serif;
+    font-size: 18px;
+
+}
+
+section > ul > li > strong{
+    color: var(--cor--dourado);
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
