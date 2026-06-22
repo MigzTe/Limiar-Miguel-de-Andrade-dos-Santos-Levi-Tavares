@@ -1,0 +1,20 @@
+#reserva{
+    height:200px;
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: auto;
+}
+
+.botao{
+    background-color: var(--cor--dourado);
+    border-radius: 10px;
+    padding: 16px 32px;
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+

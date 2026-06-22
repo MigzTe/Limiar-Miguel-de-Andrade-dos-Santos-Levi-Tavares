@@ -1,0 +1,37 @@
+#planos > ul > li{
+    color: antiquewhite;
+    font-family: "Inter" ,sans-serif;
+    font-size: 18px;
+
+}
+
+#planos > ul > li::marker{
+    color:azure
+
+}
+
+#planos > ul >li{
+    width: 300px;
+}
+
+#planos{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#inscrever{
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+

@@ -1,0 +1,46 @@
+#Listacontato{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Listacontato > li{
+    color: var(--cor-pergaminho);
+    font-family: "Inter" ,sans-serif;
+    font-size: 18px;
+}
+
+#Listacontato > li > strong{
+    color: var(--cor--dourado);
+}
+
+#RedesSociais{
+    width: 600px;
+    margin: auto;
+}
+
+#ListaRedes{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#ListaRedes > li{
+    color: var(--cor-pergaminho);
+    font-family: "Inter" ,sans-serif;
+    font-size: 18px;
+}
+
+#ListaRedes > li > strong{
+    color: var(--cor--dourado);
+}
+
+#duvidas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
