@@ -1,5 +1,8 @@
 /*CSS COM AS CONFIGURAÇÕES PADRÕES/GERAIS DA PÁGINA*/
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 :root{
     --cor-de-fundo: #0d0d0de9;
     --cor-vermelho-sange:#8B0000;
@@ -8,7 +11,7 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 
 
